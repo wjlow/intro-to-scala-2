@@ -1,5 +1,7 @@
 package introtoscala2.level01
 
+import cats.data.Reader
+
 object ReaderExercises {
 
   sealed trait Environment
